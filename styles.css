@@ -3,7 +3,6 @@ html {
     box-sizing: border-box;
     scroll-behavior: smooth;
     z-index: 1;
-    /* font-family: Comic Sans MS, "Comic Sans", "Comic Relief", cursive; */
 }
 
 ul div {
@@ -32,16 +31,10 @@ ul li {
     }
 }
 
-/* * { */
-/*     font-family: "Comic Neue", "Comic Sans MS", "Comic Sans", cursive; */
-/* } */
-
 #meteor-shower {
-    /* border: 5px solid black; */
     top: 0;
     left: 0;
     box-sizing: border-box;
-    /* outline: 5px solid black; */
 
     position: fixed;
 
@@ -65,17 +58,7 @@ ul li {
         grid-template-rows: auto auto;
         gap: 0;
     }
-
-    /* margin-left: 50%; */
-    /* margin: 100 auto; */
-/* 
-    background: #fff7f0;
-    outline: 2px solid red; */
 }
-
-/* * {
-  outline: 1px solid rgba(0, 0, 255, 0.2);
-} */
 
 .rainbow {
     color: black;
@@ -116,9 +99,6 @@ aside {
         position: static; 
         top: unset; 
         padding-top: 0;
-        /* order: -1;
-        margin-bottom: 1rem;
-        padding-top: 2rem;  */
     } 
 
     nav ul {
@@ -139,7 +119,6 @@ aside {
 
 nav {
     display: flex; 
-    /* margin-bottom: 3rem;  */
     justify-content: space-between; 
     align-items: center; 
     width: 100%; 
@@ -214,10 +193,6 @@ a {
 
 .content {
     grid-column: span 3 / span 3; 
-
-    /* @media (min-width: 768px) {  */
-    /*     grid-column: span 6 / span 6;  */
-    /* } */
 }
 
 .locked.content {

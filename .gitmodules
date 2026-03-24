@@ -1,0 +1,6 @@
+[submodule "cs106a"]
+	path = cs106a
+	url = https://github.com/wangjkevin/cs106a-section-website.git
+[submodule "cs106b"]
+	path = cs106b
+	url = https://github.com/wangjkevin/cs106b-section-website.git
