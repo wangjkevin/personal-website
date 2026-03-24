@@ -1,0 +1,164 @@
+<!doctype html>
+
+<html lang=en>
+    <head>
+        <meta charset="utf-8">
+
+        <title>kevjwang @ stanford</title>
+
+        <link rel="icon" href="images/olivine_green.png">
+
+        <!-- we'll just be using jquery to play some audio -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+        <!-- backup comic neue font just in case... -->
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue" rel="stylesheet">
+        
+        <!-- magical style secrets lie within... (not really) -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+
+    
+    <body style="font-family: 'Comic Sans MS', 'Comic Sans', 'Comic Neue', cursive; font-size: 15px;">
+
+        <!-- list out the audio we're going to use (putting it in the body is arbitrary) -->
+        <audio id="hover-bloop">
+            <source src="audio/multimedia_button_click_029.mp3"></source>
+        </audio>
+        <audio id="click-bloop">
+            <source src="audio/multimedia_button_click_006.mp3"></source>
+        </audio>
+        <audio id="sparkles">
+            <source src="audio/bss_petal_wand.wav"></source>
+        </audio>
+
+        <!-- classic two-column layout! :) -->
+        <div id="page">
+            <!-- left hand side: the navigation bar (but who really uses it anyways...) -->
+            <aside>
+            <!-- 
+            if you're one of my sectionees seeing this comment, hello! i fully commend and endorse you snooping around. that's the spirit!
+            send me an email with a screenshot of this comment, and i'll give you all the good karma there is in the world, or at least
+            how much karma i have, haha
+            -->
+                <nav aria-label="navigation">
+                    <ul class="sidebar">
+                        <li>
+                            <a href="index.html#main-page">
+                                <img class="homepage-img" alt="Welcome to CS106B!" src="images/wdch-kevin-cropped.jpg">
+                            </a>
+                        </li>
+                        <br> 
+                    </ul>
+                </nav>
+            </aside>
+
+            <!-- the main content of the page...let's call it "main" >:) -->
+            <div id="main">
+
+                <h1 id="main-page"><span id="section-title" class="rainbow">Hi, I'm Kevin!</span> 💫</h1>
+
+                <div class="portal">📍 Stanford, CA</div>
+                <div class="portal">Watching: <em>Cowboy Bebop (1998)</em></div>
+                <!-- <div class="portal">⌛ Fridays 9:30am-10:20am</div> -->
+
+                <!-- <h1 id="main-page"><span id="section-title" class="rainbow">CS106B Section</span> 💫</h1> -->
+                <h3>📮<em style="opacity: 50%"> kevjwang@stanford.edu</em></h3>
+                <script src="meteor_shower.js"></script>
+
+
+                <p>I study computer science and media studies at Stanford (which just means I stare at way too many
+                screens, both digital and cinematic). I'm particularly interested in exploring and analyzing the systems
+                that shape the world around us, whether it be computational, pedagogical, visual, cultural, etc.</p>
+
+
+                <p>Oh, and while you're here, sign my <a href="https://www.yourworldoftext.com/~kevjwang/"><em>guestbook</em></a>. :-)</p>
+
+                <h2 id="info">What I've Been Up To</h2>
+
+                <ul>
+                    <div>
+                    <li style="font-size: 16px;"><b><em>Teaching Assistant for CS106A and CS106B</em></b>
+                    </li>
+
+                    <a class="clicky portal" style="background: #67d7ff"
+                        href="https://www.stanford.edu/~kevjwang/cs106a" target="_blank">CS106A Section Website</a>
+                    <a class="clicky portal" style="background: #77DD77"
+                        href="https://www.stanford.edu/~kevjwang/cs106b" target="_blank">CS106B Section Website</a>
+                    
+                    <a class="clicky portal" style="background: #ff7d7d" href="https://cs198.stanford.edu/"
+                        target="_blank">CS198 Program</a>
+
+                    </div>
+
+                    <div>
+                    <li style="font-size: 16px;"><b><em>Guest Lecturer and Researcher at Harvey Mudd College</em></b></li>
+
+                    <a class="clicky slides portal" href="https://cs.hmc.edu/~cs5grad/connections" target="_blank">Connections!</a>
+                    <a class="clicky portal" style="background: #8aff96" href="https://cs.hmc.edu/picobot"
+                        target="_blank">Picobot</a>
+                    <a class="clicky portal" style="background: #ffde8a"
+                        href="https://www.cs.hmc.edu/twiki/bin/view/CS5Fall2025" target="_blank">CS5</a>
+                    <a class="clicky portal" style="background: #8aa5ff" href="https://www.cs.hmc.edu/~dodds/cs35/"
+                                                                         target="_blank">CS35</a>
+
+                    <br>
+                    <a class="clicky portal" style="background: #a38aff" href="https://cs.hmc.edu/~dodds/projects"
+                        target="_blank">Scripting For All, Prof. Zachary Dodds</a>
+
+
+                    </div>
+
+                    <div>
+                    <li style="font-size: 16px;"><b><em>Plunder</em></b></li>
+                    <em>Reverse engineering Minecraft structures through Bayesian inference</em>
+                    <br>
+                    <a class="clicky portal" style="background: #ff9679"
+                        href="https://www.github.com/wangjkevin/plunder" target="_blank">Repository</a>                   
+                    </div>
+
+                </ul>                    
+
+                <h2 id="info">Research</h2>
+
+                <ul>
+                    <div>
+                    <li style="font-size: 16px;"><b><em>Solving Connections: Thinking Like Wyna</em></b></li>
+                    <em style="font-size: 16.2px;">Educational Advances in Artifical Intelligence 2026 (EAAI) ~ collocated with AAAI '26</em> <br>
+
+                    <p style="margin-top: 4px; margin-bottom: 4px;"><b>Kevin Wang</b>, Zachary Dodds, Nic Dodds</p> 
+                    <a class="clicky portal" style="background: #ca76ff"
+                        href="https://modelai.gettysburg.edu/index26.html" target="_blank">Model AI Assignments</a>
+                    </div>
+                </ul>
+                <p style="font-size: 12.5px;">© Kevin Wang. Website theme based on Ben Yan's wonderful CS107 <a href="https://stanford.edu/~bbyan/cs107-spr2025/">lab website</a>. <em>Huge</em> thanks to Ben!</p>
+
+                <!-- audio clicking time :O -->
+                <script>
+                    // hovering
+                    $(document).ready(function () {
+                        let hoverBloop = $("#hover-bloop")[0];
+                        $(".clicky").mouseenter(function() {
+                            hoverBloop.volume = 0.35;
+                            hoverBloop.play();
+                        })
+                    })
+
+                    // clicking
+                    $(document).ready(function () {
+                        let clickBloop = $("#click-bloop")[0];
+                        $(".clicky").click(function() {
+                            clickBloop.volume = 0.75;
+                            clickBloop.play();
+                        })
+                    }) 
+                </script>
+
+
+            </div>
+        </div>
+
+    </body>
+
+</html>
